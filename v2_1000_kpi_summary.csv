@@ -1,0 +1,3 @@
+Métrique,Dossiers,Erreurs ancien,Taux ancien,IC95 ancien,Erreurs V2,Taux V2,IC95 V2,Écart V2 - ancien (pts),IC95 bootstrap écart (pts),Corrigés par V2,Introduits par V2,McNemar p exact
+Erreur formule notebook (fallback non compté),1000,126,0.126,[10.69% ; 14.80%],305,0.305,[27.73% ; 33.42%],17.9,[+15.00 ; +20.70],34,213,7.38747144989567e-33
+Désaccord strict avec équipe finale (vérité connue),964,358,0.37136929460580914,[34.14% ; 40.23%],481,0.49896265560165975,[46.75% ; 53.05%],12.759336099585061,[+9.23 ; +16.18],88,211,8.206297971573792e-13

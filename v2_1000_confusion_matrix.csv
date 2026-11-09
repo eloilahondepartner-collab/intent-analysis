@@ -1,0 +1,10 @@
+V2_Domain,Aftersales,B2B,Legal,Marketplace,Non renseigné,Post purchase DKT,Presales,Services,Total
+Aftersales,351,4,3,189,26,0,32,2,607
+B2B,11,21,0,12,0,0,3,1,48
+Legal,6,0,4,3,0,0,1,0,14
+Marketplace,9,1,0,81,2,0,0,0,93
+No detection,58,4,0,10,7,0,3,2,84
+Other,31,0,0,1,0,0,57,10,99
+Presales,8,0,0,0,0,0,16,0,24
+Services,10,0,0,5,1,1,4,10,31
+Total,484,30,7,301,36,1,116,25,1000

@@ -1,0 +1,2 @@
+Échantillon,Dossiers sélectionnés,Dossiers uniques,Dénominateur formule notebook,Erreurs ancien routage,Taux ancien routage,IC95 Wilson bas,IC95 Wilson haut,Référence population notebook,Écart vs référence (points),Vérités non renseignées (comptées non-erreur),Prédictions anciennes fallback (comptées non-erreur),V2 disponible
+Random_1000_seed_42,1000,1000,1000,126,0.126,0.10685258457167218,0.14800993557094794,0.1222,0.3799999999999998,36,258,False

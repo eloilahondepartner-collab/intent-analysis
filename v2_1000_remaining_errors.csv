@@ -1,0 +1,482 @@
+_Case_ID,Clean_Subject,Old_Domain,True_Domain,V2_Intent,V2_Confidence,V2_Domain,Is_V2_Error,Reasoning
+1876363,Demande d’enregistrement de vélo,Other,Presales,"Compte Client, Paiement & Loyalty",0.55,Other,False,"Enregistrement du vélo dans le garage virtuel de l'app, code non valide"
+1974261,Re: Order Number: [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Vélo acheté trop petit, demande de retour"
+1836526,"Re: reparatie, onderhoud & ondersteuning",Marketplace,Marketplace,Aftersales B2C,0.7,Aftersales,True,"Colis non reçu, problème de livraison bpost"
+1884782,Re: Re: Il mio ordine Decathlon,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Demande de retour et remboursement d'un article en double
+1890562,RE: Reclamación de servicio,Aftersales,Aftersales,"Services, Atelier & Location",0.8,Services,True,"Révision gratuite vélo en atelier magasin refusée, réclamation sur le service"
+1916366,factura comanda,B2B,B2B,Aftersales B2C,0.6,Aftersales,True,"Facture de commande manquante, signature service achat sans demande pro explicite"
+1975417,RE: Factuur bestelling [COMMANDE],Marketplace,Marketplace,B2B / Corporate,0.65,B2B,True,Demande de facture avec données entreprise et numéro de TVA
+2004446,Séance de sport d’août et septembre non prise en compte,Other,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Séances de l'app Decathlon Coach non créditées en points fidélité
+1967314,You'll miss it,No detection,Aftersales,Fallback,0.85,No detection,False,Newsletter publicitaire externe sans demande liée à Decathlon
+1939487,Prise en compte séance sur appli,Other,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Séances enregistrées dans l'app non comptabilisées en points
+2020298,Sponsoranfrage,Other,Presales,B2B / Corporate,0.6,B2B,True,Demande de sponsoring/partenariat d'une école pour son journal
+1995866,Re: Zahlungsfrist-Erinnerung SI-[NUMÉRO] / 1. Rate / Decathlon Sports Switzerland SA,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Vélo commandé non livré, demande d'annulation, paiement en attente"
+2054342,Re: Rücksendung des reis Reisehandtuch Portugal 01 bitte um Klärung des Inkassoverfahren,Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Retour envoyé mais relance de paiement en recouvrement, demande de vérification"
+1959586,Demande de facture,Aftersales,Aftersales,B2B / Corporate,0.6,B2B,True,Demande de facture d'achat magasin avec numéro de TVA
+1943349,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.7,No detection,False,Réponse automatique de changement d'adresse mail sans demande métier
+2076361,Re: Bici,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Vélo reçu endommagé, attente des pièces de remplacement"
+2053249,Re: Sollecito risposta - Ordine No Tracking,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,Relance sur une demande de remboursement de commande
+1958614,"AW: AW: ⏱️ Die Zeit läuft, deine Artikel im Warenkorb warten auf dich.",No detection,Aftersales,Avant-Vente & Conseil Produit,0.5,Presales,True,"Panier abandonné, délai de livraison trop long avant achat"
+1941982,Re: Erreur commande,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Mauvaise taille reçue, demande d'échange"
+1947019,POSTA CERTIFICATA: Formale contestazione e messa in mora – ordine [COMMANDE]-A – illegittimo rifiuto della richiesta di reso del 11/07/2026,Marketplace,Marketplace,Juridique & RGPD,0.7,Legal,True,PEC de contestation formelle et mise en demeure sur refus de retour
+1955818,Re: Wir haben Ihre Rücksendung erhalten,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Relance sur le délai de remboursement après retour
+2006566,Pls cancel order: [COMMANDE],No detection,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Demande d'annulation de commande et remboursement, délai trop long"
+1939216,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Deine Treuepunkte laufen bald ab!,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.4,Other,False,Réponse automatique de changement d'e-mail à un message sur points fidélité
+2064236,Re: Sipariş numarası: tr4568897202,Presales,Presales,Aftersales B2C,0.55,Aftersales,True,Annuler une commande pour la repasser en utilisant les points fidélité
+1970187,Re: Fr [NUMÉRO]-A,Aftersales,Aftersales,Fallback,0.7,No detection,False,Message transféré vide sans contenu exploitable
+1919307,fehlender rechnung [COMMANDE],B2B,Marketplace,Aftersales B2C,0.55,Aftersales,True,"Facture manquante pour une commande, sans identifiant fiscal explicite"
+2010379,Re: Re: Bezahltes SUP,Aftersales,Marketplace,Aftersales B2C,0.6,Aftersales,True,"Envoi de preuve de paiement d'un SUP commandé, problème de facturation"
+1904027,"R: R: preventivo Tapis roulant ""Tullio""",B2B,Marketplace,B2B / Corporate,0.85,B2B,True,Revendeur souhaitant acheter un tapis de course avec facture pro
+1941726,RE:Existing Order | Delivery Issue,Aftersales,Aftersales,Marketplace,0.7,Marketplace,True,Vendeur partenaire répondant sur article manquant d'une commande
+2018802,Reso ordine,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Suivi d'un retour de colis
+2016784,RE: [External] Re: Update Account Email,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Transfert des points fidélité vers une nouvelle adresse e-mail de compte
+1979399,Re: Answer to your query,Other,Aftersales,Fallback,0.6,No detection,False,"Relance vague sur un processus non précisé, aucun indice métier clair"
+2076205,Re: Re: Merci pour votre commande [COMMANDE]! [#[ID]] [#[ID]],No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Carte cadeau commandée en ligne non reçue par e-mail
+1762300,Re: Order no. [COMMANDE] - missing items,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Commande incomplète, deux kettlebells manquants"
+2008722,AW: PL-[ID],Marketplace,Marketplace,Aftersales B2C,0.7,Aftersales,True,"Transporteur signale un colis non distribuable, demande de retour"
+2090419,Fwd: Your refund has been processed!,No detection,Marketplace,Aftersales B2C,0.85,Aftersales,True,Remboursement reçu sans l'avoir demandé
+2055606,Reminder: Invitation à une distribution gratuite de barres originales « BE-KIND® » de Mars GmbH,No detection,Aftersales,Fallback,0.5,No detection,False,Proposition commerciale d'une agence pour distribution promotionnelle en magasins
+2057759,Re: Fahrrad,Other,Marketplace,Aftersales B2C,0.6,Aftersales,True,Mécontentement sur la solution proposée pour un panier de vélo
+1957641,Demande de partenariat pour la tombola du Gala de Bordeaux Sciences Agro,Other,Presales,B2B / Corporate,0.6,B2B,True,Association étudiante sollicitant un partenariat pour lots de tombola
+1969658,Re: SAV,Aftersales,Presales,Aftersales B2C,0.78,Aftersales,True,"Tapis de course sous garantie, remplacement chaotique, demande de geste commercial"
+2046115,Re: Issue with Folding Handlebar – Folding Bike (Delivered Sep 9,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Vélo pliant livré avec jeu au guidon, demande réparation ou remplacement"
+1868343,"Re: Reparation, entretien & support",Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,Relance sur étiquettes de renvoi de trottinette et batterie
+2101162,RE: DATOS FACTURA,Marketplace,Marketplace,Aftersales B2C,0.55,Aftersales,True,Demande de facture rectificative avec données de facturation corrigées
+1910359,Re: Retouren und Rückzahlung,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Articles retournés, demande de date de remboursement"
+1908142,Cuenta de usuario,Presales,Presales,"Compte Client, Paiement & Loyalty",0.8,Other,False,"Impossible d'accéder au compte client en ligne, besoin d'un ticket"
+1922564,Retoure,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,Attente de l'étiquette de retour d'une commande
+2049168,Re: COMMANDE KIPSTA CLUB,Aftersales,Aftersales,Fallback,0.5,No detection,False,Relance sur une commande club Kipsta en retard
+1929602,Re: Kooperationsanfrage U Social Club Dortmund,B2B,Aftersales,B2B / Corporate,0.6,B2B,True,Demande de coopération/partenariat d'un club événementiel
+2066507,Re: Decathlon Mitteilung bezüglich deiner Bestellung,Other,Marketplace,Aftersales B2C,0.4,Aftersales,True,Seul l'objet évoque une notification de commande
+2054049,Re: Mijn Decathlon bestelling,Marketplace,Marketplace,Aftersales B2C,0.82,Aftersales,True,"Remboursement de retour en attente, menace de plainte"
+2105685,Aw: Re: Nachricht bezüglich deiner Bestellung bei Decathlon,Other,Marketplace,Aftersales B2C,0.4,Aftersales,True,Seul l'objet évoque un message sur une commande
+2064875,Re: Evri delivery,Aftersales,Marketplace,Aftersales B2C,0.88,Aftersales,True,Colis indiqué livré par le transporteur mais non reçu
+1909968,Re: Aanvraag retourneren e-step,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Relance sur le remplacement d'une trottinette électrique suite à une demande de retour.
+2059832,DTF à 3€ la feuille A3 chez Flockage 2000,No detection,Aftersales,Fallback,0.5,No detection,False,"Newsletter publicitaire d'un fournisseur de flocage, sans demande client exploitable."
+1931693,Achat velo elops 900 ajout sur l'application,Presales,Presales,"Compte Client, Paiement & Loyalty",0.65,Other,False,"Code d'enregistrement du vélo refusé dans l'application, problème de compte/app."
+2024037,Decathlon uygulama değerlendirmeleri,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.55,Other,False,"Avis négatif sur l'application Decathlon, lente et difficile à utiliser."
+1903125,Re: Retour der Bestellung Nr. [COMMANDE],Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Étiquette de retour jamais reçue malgré plusieurs demandes.
+2074626,Stad Deinze: Prijsofferte n ° QUO11180675 – nog niet ontvangen via Peppol (3de reminder),Marketplace,Marketplace,B2B / Corporate,0.9,B2B,True,Administration municipale réclamant facturation via Peppol avec numéro de TVA.
+1951408,Manufacturer & Exporter,Other,Aftersales,Fallback,0.5,No detection,False,Fabricant proposant ses produits en partenariat commercial.
+1902687,RV: ¡Tu cheque descuento de 3 € está listo!,No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Chèque de réduction fidélité indisponible à l'utilisation.
+2047740,Re: [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Commande non livrée sans date, exige un remboursement."
+1630039,Problème robot piscine wybot c1,Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Robot de piscine défectueux récemment acheté, demande d'échange."
+1941565,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.6,No detection,False,"Réponse automatique de changement d'adresse e-mail, sans demande métier."
+2034757,Status report,B2B,B2B,Fallback,0.5,No detection,False,"Rapport de statut automatique d'un transporteur, sans demande client."
+1884235,Fallnummer: [NUMÉRO] - Warenbeschrieb: 2x Disque de fonte 10kg,Marketplace,Marketplace,Aftersales B2C,0.5,Aftersales,True,"Transporteur signale un colis sans étiquette, demande d'instructions."
+1989170,Re: Sipariş numarası:,Other,Aftersales,Avant-Vente & Conseil Produit,0.7,Presales,True,Demande de disponibilité d'une couleur pour une chemise.
+2052571,Re:,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Attente de l'enlèvement du colis pour un retour, rendez-vous manqués."
+2016635,Re: Il mio ordine Decathlon,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Relance sur une commande sans solution depuis plus d'un mois.
+1901099,Fwd: Réclamation – Vélo Yeep.me Day 2 livré incomplet et écran taché,Aftersales,Presales,Aftersales B2C,0.6,Aftersales,True,Objet : réclamation vélo livré incomplet et écran taché ; corps vide.
+1995993,Fw: Points activité non comptabilisés,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Points fidélité d'activité sportive non crédités.
+2060235,Rückzahlung SXMT-PBYB-ZNYR,B2B,Aftersales,B2B / Corporate,0.6,B2B,True,"Service finances d'une collectivité ne peut attribuer un remboursement, demande justificatif."
+2019055,Re: Defekte Lieferung [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.82,Aftersales,True,"Colis livré abîmé et t-shirt déchiré, demande de remboursement."
+2097209,Nachricht bezüglich deiner Bestellung bei Decathlon,Other,Marketplace,Aftersales B2C,0.4,Aftersales,True,"Objet seul évoquant une commande Decathlon, sans détail."
+2067759,Re: Il mio ordine Decathlon,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Autonomie défaillante d'un vélo électrique, dossier SAV et remboursement envisagé."
+2115139,Re: Nachricht von Decathlon,Other,Aftersales,Fallback,0.55,No detection,False,"Message vide reprenant seulement un intitulé générique, sans demande."
+1920723,Ramburs,B2B,B2B,Aftersales B2C,0.6,Aftersales,True,Objet remboursement accompagné d'un IBAN.
+1804820,Re: Klacht [ID] roeitrainer geraakt niet opgelost,Marketplace,Marketplace,Aftersales B2C,0.65,Aftersales,True,Objet : réclamation sur rameur non résolue ; corps vide.
+1968110,Re: Problème de connexion à mon compte Decathlon / Decathlon Connect,Presales,Presales,"Compte Client, Paiement & Loyalty",0.95,Other,False,Impossible de se connecter au compte Decathlon via l'app et le navigateur.
+2065210,Re: Ma commande Decathlon,Other,Presales,Aftersales B2C,0.45,Aftersales,True,"Réponse sur une commande, se plaint de l'absence de retour du service."
+1770049,Aw: Re: Aw: Re: Aw: Re: Retourenschein ???,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Besoin urgent d'une étiquette de retour pour un rameur.
+2050824,Re: Fr : Retour puma,Marketplace,Marketplace,Aftersales B2C,0.5,Aftersales,True,"Objet : retour d'un article, message transféré vide."
+1907355,Candidature au poste de vendeuse/hôtesse rayon Montagne,Other,Presales,Fallback,0.5,No detection,False,"Suivi de candidature à un emploi, hors des intentions métier client."
+2069098,Re: Sipariş numarası: tr4568870942,Presales,Presales,Aftersales B2C,0.7,Aftersales,True,Demande si la commande est arrivée au magasin de retrait.
+1958873,Sipariş numarası: tr4522648176,Presales,Presales,Aftersales B2C,0.72,Aftersales,True,Demande de date d'arrivée d'une commande au magasin.
+2000402,Re: Re: Contestation commande (CHAUSSMX),Other,Presales,Aftersales B2C,0.4,Aftersales,True,Accusé de réception automatique d'un organisme de crédit ; objet : contestation de commande.
+2023242,Re:,Marketplace,Aftersales,Marketplace,0.55,Marketplace,True,"Appareil d'une marque tierce, pièce non conforme, demande de contacter le fournisseur."
+1952486,Re: [COMMANDE],Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Colis marqué livré mais non reçu.
+1906245,Re: Postventa: producto disponible 🔧,No detection,Aftersales,"Services, Atelier & Location",0.85,Services,True,Question sur l'état de réparation d'un vélo au service atelier.
+1963045,[SMC_2026_14977] Dossier introduit auprès du Service de Médiation pour le Consommateur,No detection,Aftersales,Juridique & RGPD,0.88,Legal,True,Saisine officielle du service de médiation des consommateurs pour un litige.
+1955188,Factuur,No detection,Aftersales,B2B / Corporate,0.6,B2B,True,Demande de facturation d'une commande au nom d'une société.
+1982734,Re: Remboursement frais de port,Aftersales,Presales,Aftersales B2C,0.7,Aftersales,True,Relance concernant un remboursement de frais de port.
+2070745,commande [COMMANDE]- tapis de course abîmé lors de l'ouverture du carton,Aftersales,Presales,Aftersales B2C,0.9,Aftersales,True,"Tapis de course livré avec carter cassé, avarie à la livraison."
+1852628,Re: Re: Re: Re: Re: Message de Decathlon,No detection,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Rameur sous garantie avec corde rompue, attente du fabricant."
+1957584,RE: commande [COMMANDE]!,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Pièce manquante à la livraison d'une commande.
+1997906,Reenvíen el paquete a mi dirección.,Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,Demande de réexpédition d'un colis à son adresse.
+2054460,"Cupón App Days no recibido, pedido [COMMANDE]",Marketplace,Marketplace,"Compte Client, Paiement & Loyalty",0.8,Other,False,Coupon promotionnel App Days non reçu sur le compte.
+1899053,Status report,B2B,B2B,Fallback,0.6,No detection,False,Rapport automatique de transporteur sans demande client.
+2032031,THIS IS A TEST PLEASE IGNORE,Other,Aftersales,Fallback,0.95,No detection,False,Message de test sans contenu métier.
+2099422,"Re: Nach dem Kauf - Lieferung, Retoure, Rechnung & Produktsupport",Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Valve de SUP qui fuit, demande d'échange du produit."
+1997556,Bewerbung um einen Minijob bei DECATHLON Regensburg,Other,Services,Fallback,0.5,No detection,False,"Candidature à un emploi, aucune intention client couverte."
+1967267,Re: FRISTSETZUNG: ausstehende Gutschriften,Legal,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Mise en demeure pour remboursements en attente, simple menace d'avocat."
+1962430,Fwd: Digital Receipt - Bpost: [NUMÉRO],No detection,Marketplace,Aftersales B2C,0.4,Aftersales,True,"Reçu Bpost transféré, probablement preuve de dépôt de retour."
+1988640,Re: Falscher Artikel gutgeschrieben,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Remboursement erroné après retour en magasin.
+1853511,Re: Re: COLIS NON RECU - DEUXIEME MAIL,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Colis indiqué livré mais non reçu.
+1951726,Re: sipariş iadesi,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Retour incomplet comptabilisé, articles manquants dans le remboursement."
+1880285,Aw: Re: Aw: Re: Retoure,Aftersales,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Article commandé ne convient pas, demande de retour."
+2012898,RV: Reclamación taller bicicletas Decathlon,No detection,Aftersales,Juridique & RGPD,0.85,Legal,True,Avocat réclamant assureur suite accident avec blessures après réparation atelier.
+1946247,Re: bon d'achat expiré en avance,Other,Presales,"Compte Client, Paiement & Loyalty",0.8,Other,False,Carte cadeau introuvable sur le compte en ligne.
+1943253,Re: Retoure [COMMANDE],Aftersales,Marketplace,Aftersales B2C,0.6,Aftersales,True,Montant restant à payer sur une commande avec retour.
+1970512,Re: bicicletta difettosa,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Vélo défectueux, solution promise jamais reçue."
+2038210,Re: Demande remplacement pièce paddle Huiike - commande [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Rame de paddle décollée, demande de remplacement sous garantie."
+1997925,Certificat d’identification de mon vélo,Other,Presales,Aftersales B2C,0.6,Aftersales,True,Certificat d'identification manquant après achat d'un vélo.
+2061583,New Google message alert for Clients,Other,Aftersales,Fallback,0.7,No detection,False,Message publicitaire sans demande client.
+1967558,Ajout vélo impossible,Presales,Services,"Compte Client, Paiement & Loyalty",0.65,Other,False,Impossible d'enregistrer un vélo dans le garage virtuel du compte.
+1931761,Re: Tu factura,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Facture d'achat jamais reçue, demande d'envoi."
+1957889,Re: Verzoek tot terugbetaling – defecte fiets bij levering – Bestelnummer [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Vélo électrique livré défectueux, demande de remboursement."
+2052613,Re: Telefonnummer,Marketplace,Marketplace,Fallback,0.5,No detection,False,"Message réduit au mot numéro de téléphone, sans demande."
+1988040,Re: Sipariş numarası:,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Points fidélité non crédités après achat en caisse.
+2032783,Re: Réclamation concernant ma commande n°[COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Chaussures reçues de mauvaise couleur, suspectées contrefaites, demande retour."
+1850740,Re: Nachricht von Decathlon,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Mauvaise étiquette de retour, ajustement du paiement fractionné demandé."
+1965724,Re: Signalement d’un incident de sécurité produit,Other,Aftersales,Juridique & RGPD,0.6,Legal,True,Signalement d'incident de sécurité produit avec blessure d'un enfant.
+2000481,Fwd: Nachricht von Decathlon,Other,Aftersales,Fallback,0.5,No detection,False,Transfert d'un courrier sans contenu exploitable.
+1769790,Re: Opnieuw probleem met display fiets YEEP;me,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Écran de vélo à nouveau en panne, demande de remboursement."
+2049871,Commande [COMMANDE],Aftersales,Presales,Aftersales B2C,0.75,Aftersales,True,Colis reçu endommagé avec un trou.
+1996820,Fw: Solicitud no aceptada Pago Aplazado 3x 4x Oney,No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.75,Other,False,Échec répété du paiement fractionné lors de l'achat.
+2062840,Re: cod incorect,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Code promo reçu par e-mail inutilisable.
+1953535,Re: Rückerstattung von Bestellung n°[COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Remboursement de commande non reçu.
+2083698,Demande,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Code issu de conversion de points fidélité ne fonctionne pas.
+2096524,Betrugsfall / Fraud Case - MWPC-GSJV-KYBM ([COMMANDE]),Legal,Legal,Aftersales B2C,0.5,Aftersales,True,Prestataire de paiement demande l'arrêt d'expédition d'une commande suspecte.
+1998195,RE: Answer to your query,Presales,Presales,Informations Magasin,0.65,Other,False,Souhaite commander en ligne et retirer en magasin à Rouen.
+2097820,Re: Defect item [COMMANDE],Aftersales,Marketplace,Aftersales B2C,0.65,Aftersales,True,Signalement d'un article défectueux sur commande.
+2115001,Nachricht von Decathlon,Other,Marketplace,Fallback,0.5,No detection,False,Objet et corps génériques sans demande identifiable.
+2056623,Re: My Decathlon Order,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Retour reçu mais remboursement non effectué.
+1958498,Sipariş numarası: tr4523528951,Aftersales,Aftersales,"Compte Client, Paiement & Loyalty",0.65,Other,False,Carte de réduction non appliquée lors du paiement.
+2024385,Anfrage,Other,Aftersales,Fallback,0.5,No detection,False,Association sollicitant des dons pour un marché caritatif.
+1984294,Klantendienst hey,Other,Aftersales,Fallback,0.85,No detection,False,Simple salutation sans contenu métier.
+1938846,Re: Urgent: Missing Parcel / Falsified Delivery Status - Tracking JJD0002231705167756,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Colis abandonné par le livreur et disparu, remboursement demandé."
+2096989,Fwd: Anfrage,Other,Aftersales,Fallback,0.55,No detection,False,Transfert interne sans contenu de la demande client.
+1978258,Angebot,B2B,Aftersales,B2B / Corporate,0.95,B2B,True,Lycée public demandant un devis pour du matériel sportif.
+1909239,Reiteración de reclamación – Ref. [ID] – Falta de respuesta,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.7,Other,False,"Erreur du site empêchant l'achat, demande de maintenir le prix promo."
+2029568,RE: Re: La livraison de votre commande [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.5,Aftersales,True,"Objet sur la livraison d'une commande, sans détail."
+1981113,Re: Defect product afgeleverd Bestelling n° [COMMANDE]-A,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Vélo électrique livré avec disque et roue voilés.
+2038492,Bewerbung für ein Praktikum,Other,Aftersales,Fallback,0.55,No detection,False,"Candidature de stage, aucun motif service client rattachable."
+1941085,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.75,No detection,False,"Réponse automatique de changement d'adresse e-mail, sans contenu métier."
+1888083,Re:,Other,Aftersales,Fallback,0.3,No detection,False,"Seulement un numéro de commande, rattachement très faible à une commande."
+2024983,"Re: Ja, wir fertigen individuelle Aufnäher an – kostenloses Angebot & Entwurf",Other,Aftersales,Fallback,0.4,No detection,False,"Prospection commerciale d'un fournisseur d'écussons, sollicitation de partenariat."
+1897362,Fehlender Artikel in Bestellung [COMMANDE] – Fehlende Kinderschuhe,Marketplace,Marketplace,Aftersales B2C,0.92,Aftersales,True,"Article manquant dans le colis reçu, demande renvoi ou remboursement."
+2026097,Re: Abgelaufener Gutschein,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.8,Other,False,"Bon d'anniversaire fidélité expiré, demande de prolongation."
+2057319,Re: Quiero respuesta,Other,Aftersales,Fallback,0.7,No detection,False,"Corps vide, objet demandant seulement une réponse."
+2079796,Petrolbrothers on ice no.3 is coming!,Other,Aftersales,Fallback,0.8,No detection,False,Newsletter événementielle sans rapport avec le service client.
+1835635,Aw: Re: Ersatzakku ELOPS 920E Connect – Bitte um Lösung / Ersatzteilversorgung,Aftersales,Aftersales,Avant-Vente & Conseil Produit,0.6,Presales,True,Recherche d'achat d'une batterie de rechange indisponible en pièce détachée.
+1932885,Réclamation suite à une transaction non autorisée sur ma carte cadeau Decathlon,Legal,Presales,"Compte Client, Paiement & Loyalty",0.75,Other,False,"Transaction non autorisée sur une carte cadeau, demande de recrédit."
+1942422,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.75,No detection,False,"Réponse automatique de changement d'adresse e-mail, sans contenu métier."
+1860092,Re: Terug,Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Trottinette achetée récemment présentant un défaut, demande retour et remboursement."
+2094881,Re: Re: Decathlon Mitteilung bezüglich deiner Bestellung [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.4,Aftersales,True,"Simple renvoi d'une notification de commande, sans demande précise."
+1726442,Eski çalışanınızım maaş bordromu alabilir miyim?,Other,Aftersales,Fallback,0.55,No detection,False,"Ancien salarié demandant sa fiche de paie, hors périmètre client."
+1940174,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Deine Treuepunkte la,Other,Aftersales,Fallback,0.65,No detection,False,Réponse automatique de changement d'e-mail à une notification fidélité.
+1946574,Re: My Account & Loyalty Program,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,"Carte cadeau expirée, demande de prolongation."
+1846927,Re: Foute levering: Fwd: Bedankt voor je bestelling [COMMANDE]!,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Mauvais produit livré, photo jointe, demande de solution."
+2006082,Re: Re: Knarzgeräusch an neu geliefertem E-MTB – Bestellung [COMMANDE],Aftersales,Presales,Aftersales B2C,0.8,Aftersales,True,"VTT électrique neuf livré avec bruit de craquement, demande de prise en charge."
+2091044,ANNULATION COMMANDE [COMMANDE],Aftersales,Presales,Aftersales B2C,0.88,Aftersales,True,Demande d'annulation d'une commande.
+2107996,"Re: Bestellung [COMMANDE]-A – Widerruf, Rücktritt und Organisation der Retoure",Aftersales,Aftersales,Marketplace,0.62,Marketplace,True,"Rétractation et remboursement en retard, engagements pris par le marchand tiers."
+1981569,Confirmación de Reserva- LAFUENTE PICKLEBALL HUB MADRID,Other,Aftersales,Fallback,0.55,No detection,False,"Confirmation de réservation d'un fournisseur adressée à Decathlon, sans demande client."
+2115463,Re: Account,Other,Services,"Compte Client, Paiement & Loyalty",0.4,Other,False,"Message réduit au mot compte, indice faible de demande compte."
+2105874,[COMMANDE],Other,Marketplace,Fallback,0.3,No detection,False,"Seulement un numéro de commande, rattachement très faible."
+1973765,Re: Incidencia APP Days descuento 10%,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.55,Other,False,"Incident sur une remise de 10 % de l'application, corps vide."
+2077935,DPD-Ticket-Nr. #[ID] - Beschwerde über Zustellung – DPD-Sendungsnummer [NUMÉRO],Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,Plainte sur la livraison d'un colis Decathlon par le transporteur.
+2037917,Decathlon member kampanyası,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Points de fidélité de campagne non crédités.
+2019375,Ödeme,Presales,Presales,"Compte Client, Paiement & Loyalty",0.8,Other,False,"Impossible de payer au checkout, un seul moyen de paiement proposé."
+1938709,Re: Reclamación grave por trato intimidatorio y obstrucción al cliente en tienda (Decathlon Usera),Other,Aftersales,"Services, Atelier & Location",0.65,Services,True,Plainte en magasin liée à un service de location de vélo mensuel.
+2070096,Commande [COMMANDE],Aftersales,Presales,Aftersales B2C,0.88,Aftersales,True,"Commande en retard sans suivi, demande annulation et remboursement."
+2061433,RE: Devolución aceptada [COMMANDE]-B,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Retour accepté mais remboursement non reçu.
+1965598,Problem mit Retour,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Bordereau de retour non reçu pour une combinaison commandée.
+2035527,Re: code d'activation non recu,Other,Services,"Compte Client, Paiement & Loyalty",0.5,Other,False,Code d'activation non reçu pour déclarer la revente d'un vélo.
+2056281,ALTE LEIPZIGER - Korrespondenz zu [NUMÉRO],Other,Aftersales,Fallback,0.6,No detection,False,"Courriel automatique d'un assureur avec pièce jointe, sans demande lisible."
+1967546,YOUCA - action day,Other,Aftersales,Fallback,0.55,No detection,False,"Élève cherchant une journée d'immersion professionnelle, hors périmètre client."
+1953846,Re: Réclamation chaussure de football puma,Aftersales,Marketplace,Aftersales B2C,0.92,Aftersales,True,"Chaussures commandées en ligne avec semelle décollée, demande garantie."
+2116989,Re: Collection,Other,Aftersales,Fallback,0.3,No detection,False,"Un seul mot évoquant un retrait, très vague."
+1952784,Pas eu les 100 points fidélité,Presales,Services,"Compte Client, Paiement & Loyalty",0.9,Other,False,Points de fidélité non crédités sur le compte.
+1880020,Zahlungsavis für Zahllauf Nr.: ZA003422,B2B,Aftersales,B2B / Corporate,0.6,B2B,True,Avis de paiement automatique d'une entreprise pour des factures réglées.
+1885410,Re: Wrong city / postal code,Other,Aftersales,Avant-Vente & Conseil Produit,0.45,Presales,True,"Achat de vélo pas encore effectué, question sur l'adresse de livraison future."
+1961509,"Re: Hola [NOM] tardes, he intentado hacer una compra vía online a domicilio de una bicicleta urbana eléctrica y no me deja realizarla, adjunto lo que me sale, podrían decirme a qué",Presales,Presales,"Compte Client, Paiement & Loyalty",0.7,Other,False,"Impossible de finaliser un achat en ligne, blocage au checkout."
+2066850,Colis Post NL non-réceptionné - [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Partie de commande indiquée livrée mais non reçue.
+1864152,Re: Verklaring niet ontvangs - 3SKDYE0628515 - Bestelling n°[COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Colis marqué livré selon le suivi mais non reçu.
+2103301,AW: AW: Decathlon Retoure ch1514100563,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Rameur retourné collecté, remboursement en attente."
+2016110,Re: No me llega el correo con los dígitos,Presales,Presales,"Compte Client, Paiement & Loyalty",0.75,Other,False,Code de vérification par e-mail non reçu pour passer commande.
+1834681,Re: Betaalwijzen,No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.5,Other,False,"Relance sur une question de moyens de paiement, sans détail."
+1995329,Re: n°[COMMANDE]-B,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Retour impossible, code-barres non scanné au point de dépôt."
+1877974,Re: Return of [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,E-mail de retour non reçu pour une commande.
+2014248,Pas eu les 100 points de fidélité,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Points de fidélité non crédités après activité sportive.
+1941998,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.6,No detection,False,"Réponse automatique de changement d'adresse e-mail, aucun contenu métier"
+2060451,Re: Order n° [COMMANDE]-A,Aftersales,Marketplace,Aftersales B2C,0.95,Aftersales,True,"Retour d'article commandé en ligne, question sur l'emballage"
+1997400,Re: Opiniones aplicación Decathlon,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,"Coins de l'application non crédités, programme de fidélité"
+2013134,Re: Suite de réclamation - Commande n° [COMMANDE],Marketplace,Marketplace,Juridique & RGPD,0.6,Legal,True,"Litige avec plainte déposée auprès de l'Inspection économique, procédure en cours"
+1870504,[COMMANDE] Klantengeschil retour marketplace,Marketplace,B2B,Marketplace,0.85,Marketplace,True,Magasin demande quoi faire d'un vélo défectueux d'une commande marketplace
+1953214,Re: Cont decathlon,Presales,Presales,"Compte Client, Paiement & Loyalty",0.92,Other,False,"Deux comptes en double, fusion et vouchers invisibles"
+1838400,Re: Votre retour,Aftersales,Presales,Aftersales B2C,0.85,Aftersales,True,"Défaut d'assistance moteur d'un vélo électrique, demande de modalités de retour"
+1995666,AW: Zahlung ausstehend,Aftersales,Marketplace,Aftersales B2C,0.72,Aftersales,True,Contestation d'une relance de paiement pour colis non reçu
+1920383,Beschwerde,Other,Marketplace,"Services, Atelier & Location",0.55,Services,True,Plainte sur le service de reprise d'articles d'occasion en magasin
+1976254,Re: Bug conversation points fidélité,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Carte cadeau issue des points fidélité introuvable et erreur au passage de commande
+1984707,remboursement,Aftersales,Presales,Aftersales B2C,0.85,Aftersales,True,"Attente de remboursement, transmission du RIB"
+2051443,AW: WG: PL-[ID],Marketplace,Marketplace,Aftersales B2C,0.7,Aftersales,True,Transporteur signale un colis non distribuable et propose le retour
+1838059,Aw: Re: Aw: Re: Aw: Re: Aw: Zahlungsfrist-Erinnerung SI-[NUMÉRO] / 1. Rate / Decathlon Sports Switzerland SA,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Colis retourné sans confirmation, vérification du retour"
+2093366,AW: AW: Re: AW: AW: Re: Rechnr.. [COMMANDE] DECATHLON Deutschland SE & Co. KG,Marketplace,Marketplace,Aftersales B2C,0.5,Aftersales,True,"Échange sur une facture de commande, documents manquants, très peu détaillé"
+2059145,Urgent: Ma commande Decathlon,No detection,Presales,Aftersales B2C,0.9,Aftersales,True,Remboursement de commande attendu depuis plus d'un mois
+2032617,Re: Retour [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.93,Aftersales,True,Demande de retour de commande et étiquette de retour
+1962398,Re: Informations complémentaires sur votre envoi bpost:[NUMÉRO],Marketplace,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Corps vide, objet lié à un envoi transporteur"
+1857422,Re: Pedido: [COMMANDE] -Incidencia cinta caminar behumax 480 pro- Error motor E2 y equipo sin funcionamiento,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Tapis de course commandé en panne, demande de réparation ou retour"
+1909485,Re: 29 Ağustos Tarihli Çalışan Tutumu Hakkında Şikâyet,Other,Aftersales,Informations Magasin,0.5,Other,False,Plainte sur le comportement d'un employé dans un magasin précis
+1884261,Re: Réclamation commande [COMMANDE],No detection,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Balançoire défectueuse, demande de dédommagement ou reprise à domicile"
+2044218,Re: retour label,Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,"Demande d'étiquette de retour, message très bref"
+1927952,Babyhangmat Qeridoo ontvangen in vreemd verpakte doos,No detection,Aftersales,Marketplace,0.92,Marketplace,True,Article commandé via Marketplace reçu dans un emballage suspect
+1979376,Re: sav trotinette,Aftersales,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Trottinette défectueuse, informations fournies pour le SAV"
+2040189,Re: Envio,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Remboursement du retour toujours non reçu
+2062195,Re: Message de Decathlon,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Mécontentement sur le suivi d'un colis renvoyé à l'expéditeur
+2008153,Re: solicitare ramburs retur,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,Envoi des coordonnées bancaires pour remboursement d'un retour
+2110914,Winterdienst 2026/2027 – Anfrage zur Betreuung Ihrer Betriebsflächen,B2B,Marketplace,B2B / Corporate,0.6,B2B,True,Prestataire proposant un partenariat commercial de déneigement des sites
+2097616,Re: My subject,Presales,Presales,"Services, Atelier & Location",0.85,Services,True,Avancer un rendez-vous d'entretien vélo à l'atelier d'un magasin
+2011766,ULTIMO SOLLECITO – Ordine [COMMANDE] – Richiesta rimborso,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Planche reçue endommagée, relance de demande de remboursement"
+1957435,"Re: Geschäftsanfrage – Ankauf von Restposten, Liquidationsware und Kundenretouren",No detection,Aftersales,B2B / Corporate,0.85,B2B,True,Grossiste proposant l'achat en volume de stocks et retours
+2046251,Fw: Etiqueta devolución,Marketplace,Marketplace,Aftersales B2C,0.92,Aftersales,True,Étiquette de retour toujours attendue
+2037129,Re: Reso da effettuare,Aftersales,Marketplace,Aftersales B2C,0.92,Aftersales,True,Retour à effectuer sans étiquette fournie
+2065226,Win Half. Help Fund 40. 🎶,No detection,Aftersales,Fallback,0.85,No detection,False,Newsletter de loterie sans rapport avec Decathlon
+1907732,Weihnachtsangebot: 5 € Digitalisierung + erstes Logo GRATIS bei Ihrer Bestellung,Other,Aftersales,Fallback,0.5,No detection,False,Démarchage commercial d'un prestataire de digitalisation de broderie
+1964456,Rdo. Oficio solicitando información OP. SILK [ID],Other,Aftersales,Juridique & RGPD,0.92,Legal,True,Réquisition policière demandant des informations
+2017008,Re: Re : Re: Demande [ID],Other,Aftersales,Fallback,0.55,No detection,False,Relance d'une demande sans aucun contexte métier
+1911363,Re: Ma commande Decathlon,Aftersales,Marketplace,Aftersales B2C,0.92,Aftersales,True,Ni colis ni remboursement reçus
+1902114,fusion de deux comptes clients,Presales,Services,"Compte Client, Paiement & Loyalty",0.92,Other,False,Demande de fusion de deux comptes clients
+2029694,Re: Nachricht bezüglich deiner Bestellung bei Decathlon,Other,Marketplace,Aftersales B2C,0.4,Aftersales,True,"Objet évoquant une commande, aucun détail"
+1975297,Status report,B2B,B2B,Fallback,0.5,No detection,False,Rapport automatique de transporteur sans demande métier client
+1891693,Re: Incidencia sincronización Garmin – puntos por práctica deportiva no abonados,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.95,Other,False,Points fidélité d'activité sportive non crédités
+1988120,Re: Mi pedido Decathlon,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Masque manquant dans la commande, ni article ni remboursement"
+892350,Store Request,Services,Post purchase DKT,"Services, Atelier & Location",0.9,Services,True,Question sur la prise de rendez-vous à l'atelier vélo
+2039083,Re: Mijn Decathlon bestelling,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Remboursement de commande non reçu
+1970838,Re: Bisiklet,Aftersales,Aftersales,"Services, Atelier & Location",0.85,Services,True,Vélo en réparation non rendu à la date prévue
+2059000,Rechnung,Other,Marketplace,Aftersales B2C,0.45,Aftersales,True,Objet seul demandant une facture
+2098859,Rücksendeetikett,Marketplace,Marketplace,Aftersales B2C,0.65,Aftersales,True,"Demande d'étiquette de retour, objet seul mais indice clair de retour."
+1798423,Re: Retoure,Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,"Retour déposé et reçu, mais relance de paiement reçue ; demande d'annulation du paiement."
+2025838,Online Siparişler Hakkında,Presales,Presales,"Compte Client, Paiement & Loyalty",0.55,Other,False,"Impossible de commander en ligne, débit sans commande visible : problème technique de paiement au checkout."
+1986476,Praktikum,Other,Aftersales,Fallback,0.4,No detection,False,"Relance de candidature de stage, hors périmètre des intentions service client."
+1947466,Anfrage zur Unterstützung,Other,Aftersales,Fallback,0.4,No detection,False,"Demande de don de particuliers pour un enfant accueilli, hors intentions métier."
+1698538,"RE: Re : Re : Repair, Maintenance & Support",Aftersales,Marketplace,"Services, Atelier & Location",0.55,Services,True,"Fil réparation/maintenance vélo, demande d'enlèvement rapide pour réparation."
+2070944,Re:,Marketplace,Marketplace,Aftersales B2C,0.55,Aftersales,True,"Demande d'étiquette d'expédition, probablement pour un retour."
+1893661,Re: Einkauf hinzufügen,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Ajout d'un achat au programme de fidélité membership.
+2112734,Oferta de colaboración Envia.com para Política De Cookies,B2B,Aftersales,Fallback,0.45,No detection,False,"Prospection commerciale d'une plateforme logistique proposant ses services, sollicitation partenariat."
+1745426,Re: Fitbike ride 2.6,Aftersales,Marketplace,Aftersales B2C,0.7,Aftersales,True,"Vélo d'appartement acheté l'an dernier, résistance trop dure : défaut produit après achat."
+1946226,Odp: AW: AW: Parking ticket [ID],Other,Aftersales,Informations Magasin,0.4,Other,False,"Contestation d'une amende de parking devant un magasin précis, demande d'intervention du magasin."
+2094494,R: Il mio ordine Decathlon,Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Retour remis au transporteur et reçu, demande de suivi du remboursement."
+2105238,Decathlon Mitteilung bezüglich deiner Bestellung,Other,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Objet évoquant une commande, corps sans détail."
+2002787,Re: Answer to your query,Other,Aftersales,Fallback,0.2,No detection,False,"Message réduit à une salutation, aucun contenu métier."
+1968008,Re: Re: Answer to your query,Other,Aftersales,Fallback,0.25,No detection,False,Relance sans aucun élément sur le sujet de la demande.
+1921412,Re : Re : Re : Votre demande de retour n°[COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Trampoline retourné, remboursement non reçu."
+2011111,Kulanzanfrage für Neukauf: Aufblas-Kajak Drop Stich (Art.-Nr. [ID]),Aftersales,Services,Aftersales B2C,0.55,Aftersales,True,"Kayak défectueux non réparable, demande de geste commercial pour rachat."
+2037004,Re:,Other,Aftersales,Fallback,0.1,No detection,False,Message vide.
+2053087,Re: Uw retour nooit gekregen door Leasi,Marketplace,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Objet seul : retour jamais reçu par un tiers, suivi de retour."
+1926629,Re: Proforma Bicicleta Decathlon,B2B,Marketplace,B2B / Corporate,0.8,B2B,True,"Service achats d'une université : vélo payé non livré, demande de remplacement."
+1785525,Re: Defektes Gewinde an der Kurbel – Bitte um Ersatzteil auf Garantie/Gewährleistung,Aftersales,Presales,Aftersales B2C,0.85,Aftersales,True,"VTT électrique récent avec manivelle défectueuse, pièce demandée sous garantie."
+1967820,Re: erreur adresse amil du destinataire,Other,Presales,"Compte Client, Paiement & Loyalty",0.75,Other,False,"E-carte cadeau envoyée à une mauvaise adresse e-mail, demande de réémission."
+1890760,RE: Botas Adidas,Aftersales,Aftersales,Marketplace,0.75,Marketplace,True,"Chaussures défectueuses achetées sur le site, vendeur tiers explicitement cité."
+1969786,Rückerstattung,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Objet remboursement avec coordonnées bancaires et numéro de commande.
+2080316,Re: Re :Re: Retour,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Articles retournés, remboursement non visible chez le prestataire de paiement."
+1882346,Re:,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Tente commandée en ligne livrée sans arceau, remplacement demandé."
+2021470,Re: Mijn Decathlon bestelling,Aftersales,Marketplace,Aftersales B2C,0.7,Aftersales,True,"Commande toujours ni reçue ni suivie, demande de vérification."
+2081647,Re: Decathlon Mitteilung bezüglich deiner Bestellung,Other,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Objet évoquant une commande, corps sans détail."
+2061959,Re: Devolución con cambio pedido [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Mauvaise pointure reçue, demande d'échange."
+1957933,Re: İndirim uygulanmadı,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.5,Other,False,"Remise promotionnelle non appliquée, demande de bon d'achat."
+2029213,Re: Fw: Your Royal Mail Collection – Update. How did we do?,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Colis de retour collecté, remboursement non reçu."
+1913122,Bestellung [COMMANDE],Presales,Presales,Informations Magasin,0.75,Other,False,"Click & Collect dans un magasin précis, retrait par un tiers."
+1931342,AW: Schuhe nicht angekommen,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Baskets indiquées livrées mais non reçues.
+1917156,Captura [NUMÉRO] a las 10.17.35,Other,Aftersales,Fallback,0.15,No detection,False,Seulement une capture d'écran sans texte exploitable.
+2096241,Alpinmesse with Alpinforum 2026 — Participant Details,Other,Marketplace,Fallback,0.4,No detection,False,Prospection commerciale vendant une base de participants à un salon.
+1965356,Fw: DECATHLON / Votre demande d'assistance n° [ID] / Absence crédit points,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Points fidélité non crédités pour une activité.
+1982601,Points fidélité,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Séance sportive non comptabilisée dans les points fidélité hebdomadaires.
+1973968,Re: [COMMANDE],Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Vélo commandé non reçu, demande de localisation."
+1984327,Re :Re: Rétractation (GRONDIOR),No detection,Presales,Aftersales B2C,0.4,Aftersales,True,"Remerciement d'un organisme de crédit au sujet d'une rétractation, contenu minimal."
+2094732,Nachricht bezüglich deiner Bestellung bei Decathlon,Other,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Objet évoquant une commande, corps sans détail."
+2050169,colis réceptionné par un autre client,Other,Marketplace,Aftersales B2C,0.75,Aftersales,True,Colis réceptionné par un autre client.
+2012680,Re: Séances Decathlon Coach non comptabilisées dans Decat’Club,Other,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Séances non remontées dans le compteur du programme fidélité.
+1819276,Re: Re : Challenge et points fidélité,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Code de réduction de challenge et points fidélité non reçus.
+1882852,Re: Merci pour votre message,No detection,Services,"Compte Client, Paiement & Loyalty",0.6,Other,False,Demande d'envoi de carte cadeau liée aux points.
+1952133,Beschwerde über respektloses Verhalten in der Decathlon-Filiale im Nordwestzentrum Frankfurt,Other,Aftersales,Informations Magasin,0.45,Other,False,Plainte sur le comportement d'un employé dans un magasin précis lors d'un retour.
+1872146,AW: Verwendungszweck: RJCF-JRZB-CVKT - Mahnung von Unzer,Legal,Legal,Aftersales B2C,0.55,Aftersales,True,Prélèvement inconnu et relances de paiement fractionné liées au commerçant.
+1864521,Aw: Re: Aw: Re: Aw: Re: Aw: Re: Aw: Deine Rückerstattung wurde genehmigt!,Aftersales,Aftersales,Avant-Vente & Conseil Produit,0.6,Presales,True,Demande de date de remise en disponibilité d'un article annulé.
+2002909,Re: Re: Re: [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Pièce de rechange promise toujours non reçue.
+1932606,DPD Paketklärungsinformation,No detection,Presales,Aftersales B2C,0.4,Aftersales,True,Avis transporteur de colis non livré pour Decathlon.
+1874976,Re: Reembolso Manual [COMMANDE],No detection,Aftersales,Marketplace,0.85,Marketplace,True,Remboursement d'une pièce commandée via marketplace non aboutie.
+2095847,Nachricht von Decathlon,Other,Marketplace,Fallback,0.3,No detection,False,Objet et corps génériques sans demande identifiable.
+2042361,Re: horloge aankoop december 2025 werkt niet meer,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,Montre achetée qui ne fonctionne plus.
+1930860,Fw: Re: Fw: Your order [COMMANDE]-A has been delivered,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Tapis de course en erreur au déballage, remplacement demandé."
+1996427,Sipariş numarası: tr4539728696,Presales,Presales,Informations Magasin,0.6,Other,False,"Souhaite retirer sa commande dans un magasin précis, sinon annulation."
+1913415,Retoure abgelehnt,Aftersales,Aftersales,Marketplace,0.6,Marketplace,True,"Mauvaise taille reçue deux fois, retour refusé par le vendeur."
+1957138,"verschenken card , habe ich nie erhalten",Other,Aftersales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Carte cadeau promise en magasin jamais reçue.
+2078557,Erreur lors d'ajout de vélo à mon espace,Presales,Presales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Erreur technique lors de l'ajout du vélo au garage virtuel de l'espace client.
+1898848,Buy,Other,Aftersales,Fallback,0.5,No detection,False,"Message très vague évoquant une annonce eBay, sans demande métier claire."
+2046111,Sipariş numarası: tr4537099312,Marketplace,Marketplace,Aftersales B2C,0.55,Aftersales,True,Facture de commande introuvable pour certains articles.
+2079765,Re: Solicitud de etiqueta de devolución,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Étiquette de retour non reçue pour des articles à retourner.
+2090922,Erreur de durée du contrat de location contrat [ID],Services,Presales,"Services, Atelier & Location",0.85,Services,True,Erreur de durée sur un contrat de location de vélo électrique.
+2013558,Fwd:,Aftersales,Aftersales,Fallback,0.9,No detection,False,Message vide sans objet exploitable.
+2017510,Bestellung GTS Fährstraße / Vol 28/2026,B2B,Aftersales,B2B / Corporate,0.75,B2B,True,Bon de commande d'une structure demandant une confirmation de commande.
+2059695,DIFFIDA FORMALE — Richiesta documentazione tecnica bici elettrica DYU B20MINI — Ordine [COMMANDE] — Pratiche n. [ID] e n. [ID],Marketplace,Marketplace,Juridique & RGPD,0.9,Legal,True,Mise en demeure formelle d'un cabinet d'avocat exigeant documentation technique.
+2061717,Re: Votre demande de retour 4FIZJO,Marketplace,Marketplace,Aftersales B2C,0.7,Aftersales,True,Suivi d'une demande de retour.
+1933123,R: Hai ricevuto un messaggio relativo all'ordine [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Colis perdu, demande de remboursement immédiat avec simple menace."
+2027042,Re: Re: Paquete en buen estado mancuerna rota,Marketplace,Marketplace,Aftersales B2C,0.65,Aftersales,True,"Objet indique haltère cassé reçu, corps vide."
+1976047,Re: Chatbot Enquiry for H02WPD0007724501,Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,Colis retour toujours pas collecté après plus d'une semaine.
+1998641,Status report,Other,Aftersales,Fallback,0.5,No detection,False,"Rapport de statut automatique d'un transporteur, sans demande client."
+1889140,Billet ligue 1 Strasbourg Lens,Other,Presales,"Compte Client, Paiement & Loyalty",0.45,Other,False,Places de match annoncées comme gagnées mais billets non reçus.
+1979793,Fwd: Referenz #GeVo1001989122: AW: Ihre Anfrage,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Commande en ligne payée jamais livrée.
+2011735,Re: MESSAGE DECATHLON,Marketplace,Marketplace,"Services, Atelier & Location",0.5,Services,True,Suivi de réparation d'une trottinette envoyée en atelier.
+1948695,Re:,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,Remboursement non reçu après collecte du vélo retourné.
+1952086,AW: WG: PL-[ID],B2B,Marketplace,Aftersales B2C,0.6,Aftersales,True,"Transporteur signale colis non livrable, demande retour de la marchandise."
+2013060,Sipariş numarası: tr4541024321,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Points fidélité promis non crédités sur le compte.
+1874242,Re: AW: WG: Sie haben eine Nachricht zu Bestellung [COMMANDE]-A erhalten,Marketplace,Marketplace,Aftersales B2C,0.55,Aftersales,True,Relance sur une commande sans nouvelles depuis trois mois.
+1944302,Re: Sipariş numarası: tr4517791387,Aftersales,Aftersales,"Compte Client, Paiement & Loyalty",0.5,Other,False,Paiement effectué mais e-mail indiquant échec du paiement de la commande.
+1874839,"Re: Offene Retouren Kundennummer [NUMÉRO] -Dringende Beschwerde & Letzte Mahnung vor gerichtlichem Mahnverfahren – Bestellungen [[COMMANDE], [COMMANDE], [COMMANDE])]",Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,"Confirmations de retours manquantes sur plusieurs commandes, ajustement paiement Klarna."
+2065779,Re: Ma commande Decathlon,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,Suivi d'un remboursement pour commande non récupérée.
+1825177,IMPORTANT: Avís de notificació de l'ens Ajuntament d'Esplugues de Llobregat,No detection,Aftersales,Juridique & RGPD,0.6,Legal,True,Notification électronique officielle d'une administration municipale.
+2065538,Request for a Response to a Policy Violation Notice,Legal,Aftersales,Fallback,0.4,No detection,False,"Avis de violation de droits d'auteur sur une page, possiblement frauduleux."
+1897199,Re: Mijn Decathlon bestelling,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Code de livraison gratuite ne fonctionne pas.
+2105044,Aw: Re: Nachricht von Decathlon,Other,Aftersales,Fallback,0.7,No detection,False,"Message sans contenu métier, seulement un intitulé générique."
+1950778,Aggiornamento pratica di reso e attesa etichetta – Ordine n. [COMMANDE],Marketplace,Aftersales,Marketplace,0.7,Marketplace,True,Mise en demeure du client pour retour d'un paddle défectueux vendu par vendeur tiers marketplace.
+2071891,Level up with gear built for the BJJ 🥊,No detection,Aftersales,Fallback,0.45,No detection,False,Prospection commerciale d'un fournisseur proposant catalogue de gros.
+1801784,Re: Dringende Reklamation: Defekter E-Scooter Hitway H9 Pro – Bestellung [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Trottinette électrique défectueuse à la livraison, demande échange sous garantie."
+2010475,Re: Bestelling,B2B,B2B,Aftersales B2C,0.6,Aftersales,True,"Paiement de trois vélos effectué, demande de finaliser la commande en urgence."
+2029885,Scheckzahlung,B2B,Services,Informations Magasin,0.45,Other,False,Question sur paiement par chèque en magasin avec formulaire d'exonération TVA.
+1984129,Re: Your return request has been accepted for the [COMMANDE]-A order,Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,"Retour accepté, attend instructions et confirmations de réception des retours."
+1988504,"FORMAL ESCALATION: Unlawful delay, courier fraud & holiday disruption – Order [COMMANDE]",Legal,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Colis jamais livré, escalade formelle demandant remboursement et geste commercial."
+1901076,Re: Suivi de dossier [NUMÉRO],Aftersales,Aftersales,"Services, Atelier & Location",0.45,Services,True,"Relance sur dossier en cours, besoin urgent de récupérer son vélo."
+1947191,Re[4]: [COMMANDE] - Stato Dell'Ordine,Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,Envoi de vidéos dans le cadre d'un dossier sur l'état de commande.
+1976734,Re: Your return request has been accepted for the [COMMANDE]-A order,Marketplace,Marketplace,Aftersales B2C,0.6,Aftersales,True,Retour accepté mais aucune instruction reçue.
+2004173,Re: Vélo électrique Riverside e100,Aftersales,Aftersales,"Services, Atelier & Location",0.55,Services,True,Vélo électrique en panne juste après un entretien en atelier.
+1897878,Re: Demande d'enregistrement de vélo électrique sur APIC – DK 9AE ZT 286,Other,Aftersales,"Services, Atelier & Location",0.5,Services,True,Demande d'enregistrement d'un vélo électrique dans le fichier d'identification.
+2050690,Re: SAV/garantie produit,Aftersales,Presales,Aftersales B2C,0.8,Aftersales,True,"Garantie trampoline, numéro de série introuvable."
+2024514,Status report,Other,Aftersales,Fallback,0.5,No detection,False,"Rapport de statut automatique d'un transporteur, sans demande client."
+1935239,Re: Not delivered,Aftersales,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Commande marquée livrée mais non reçue, mauvaise adresse sur photo."
+2101770,Sponsoringanfrage für Hochschul-Event,Other,Marketplace,B2B / Corporate,0.6,B2B,True,Demande de sponsoring d'une association étudiante pour un événement.
+1983322,"Re: Bestellung als zugestellt markiert, aber nicht erhalten",Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Colis marqué livré mais non reçu, demande enquête transporteur."
+1982870,Retour de l’attestation sur l’honneur,Aftersales,Presales,Aftersales B2C,0.85,Aftersales,True,"Attestation de non-réception d'un colis, demande enquête transporteur."
+1912777,Problema con tarjeta regalo,Services,Services,"Compte Client, Paiement & Loyalty",0.6,Other,False,Carte cadeau issue d'une location annulée inutilisable pour une nouvelle location.
+2023976,Kampanya Hk.,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Points fidélité de campagne non crédités après achat.
+1946329,Fialie Leipzig paunsdorf Center,Other,Aftersales,"Services, Atelier & Location",0.65,Services,True,"Mécontentement sur révision vélo en atelier, frein non réglé, critique fidélité."
+1949130,Re: Sipariş numarası:,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.4,Other,False,"Image du produit ne s'affiche pas, possible bug du site."
+2044282,Rücksendung Bestellnummer [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.92,Aftersales,True,Demande d'étiquette de retour et remboursement pour articles abîmés et trop grands.
+1998828,Activité non prise en compte,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Points fidélité d'activités non crédités sur le compte.
+2003447,Re: Waterdichte chaps jacht renfort 900 Kevlar.,Aftersales,Presales,Aftersales B2C,0.88,Aftersales,True,"Commande livrée incomplète à répétition, côté gauche manquant."
+2064003,Re: Re: Gestolen kinderfiets Rent00320191,Aftersales,Marketplace,"Services, Atelier & Location",0.75,Services,True,Vélo enfant en location déclaré volé.
+1890608,Re: Challenge Août [NUMÉRO] km - Points non comptabilisés,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Points du challenge fidélité non crédités dans l'application.
+1954452,Re: Your return request has been accepted for the [COMMANDE]-A order,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Demande d'instructions pour un retour accepté.
+2107353,Nachricht von Decathlon,Other,Marketplace,Fallback,0.2,No detection,False,"Aucun contenu métier, simple 'Nachricht von Decathlon'."
+2030810,Re: Demande d’activation de l’identifiant de mon vélo,Presales,Presales,"Compte Client, Paiement & Loyalty",0.65,Other,False,"Impossible d'ajouter le vélo au garage virtuel du compte, identifiant non activé."
+1863295,Bestellnummer [COMMANDE] - Anfrage zur nachträglichen Preisanpassung meines Lastenfahrrads,Aftersales,Presales,Aftersales B2C,0.8,Aftersales,True,Demande d'ajustement de prix après achat d'un vélo cargo.
+2060737,Anfrage Verein Sachspende Gutschein,B2B,Marketplace,B2B / Corporate,0.6,B2B,True,Club sportif sollicitant un don ou bon d'achat pour une tombola associative.
+2073513,Demande de numéro d’identification FNUCI – vélo Riverside 500 volé,Other,Services,Aftersales B2C,0.55,Aftersales,True,Demande du numéro d'identification d'un vélo acheté puis volé.
+1992295,Re: Re: [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Commande introuvable au suivi, demande de vérification ou remboursement."
+2048590,Cv et letter de motivation de stage 02/11/2026-21/11/2026,Other,Presales,Fallback,0.35,No detection,False,"Envoi de candidature de stage, hors intentions service client."
+1938387,Demande code d'activation vélo,Other,Presales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Code d'activation du vélo introuvable pour le garage vélo en ligne.
+2086646,[COMMANDE] vom 15.08.2026,Marketplace,Marketplace,B2B / Corporate,0.6,B2B,True,Facture complète manquante pour une commande payée par une association.
+1907602,Status report,B2B,B2B,Fallback,0.3,No detection,False,"Rapport automatique de transporteur, pas de demande client."
+2013044,"AW: Re: Bestellung [COMMANDE] – als zugestellt markiert, aber nicht erhalten",Marketplace,Marketplace,Aftersales B2C,0.93,Aftersales,True,"Colis marqué livré mais non reçu, demande d'enquête transporteur."
+2014589,Re: Reclamación 10%,Aftersales,Presales,"Compte Client, Paiement & Loyalty",0.6,Other,False,"Bon de réduction promis après commande non reçu, réclamation sur l'offre."
+1938614,Re: Order No: [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Colis déclaré livré par le transporteur mais non reçu.
+2095539,Re: Miguel latorre,Other,Aftersales,Avant-Vente & Conseil Produit,0.55,Presales,True,Question sur une promotion retirée pour un produit envisagé à l'achat.
+2109225,Re: Nachricht von Decathlon,Marketplace,Marketplace,Fallback,0.2,No detection,False,"Aucun contenu métier, simple 'Nachricht von Decathlon'."
+1865013,Re: Ihre Bestellung SPY18762 wurde zugestellt,Aftersales,Marketplace,Aftersales B2C,0.45,Aftersales,True,Réponse vide à une notification de commande livrée.
+2002856,Re: [COMMANDE] Siparişin Bize Ulaştı!,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Demande de facture d'une commande personnelle.
+2042284,Re: Order n°[COMMANDE]-A,Aftersales,Marketplace,Aftersales B2C,0.88,Aftersales,True,"Commande partielle reçue, poids manquants."
+2002192,Re: Reso ordine [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Colis en retard non reçu, demande de retour ou remboursement."
+2030381,Re: tr4551700733 no lu sipariş,Presales,Presales,"Compte Client, Paiement & Loyalty",0.75,Other,False,Carte cadeau non reconnue et paiement non visible lors de la commande.
+1951023,Re: kukurin,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,Demande d'état d'avancement de la commande.
+2032810,"RE: [Suite à votre achat]: Akofa, êtes-vous satisfait(e) de vos derniers achats ?",No detection,Aftersales,Fallback,0.25,No detection,False,"Simple réponse de satisfaction à une enquête, aucune demande."
+2049266,Re: No puedo realizar compra en la web.,Presales,Presales,"Compte Client, Paiement & Loyalty",0.8,Other,False,"Impossible d'acheter sur le site, code de validation non reçu."
+2085042,Re: 2 Zweiartikel fehlen,Marketplace,Marketplace,Aftersales B2C,0.92,Aftersales,True,"Deux articles de la commande non reçus, livrés prétendument au voisin."
+2008056,"BUG Les 100 points de l'heure de sport de la semaine ne sont pas crédités et le compteur de sport reste toujours à zéro, depuis hier lundi 14 septembre 2026",Presales,Presales,"Compte Client, Paiement & Loyalty",0.92,Other,False,"Points fidélité hebdomadaires non crédités, bug de l'application."
+1903030,"Re: 6502 Sayılı Kanun Kapsamında Ayıplı Mal Bildirimi, Kanuni Seçimlik Hakların Kullandırılmasının Sistemsel Olarak Engellenmesi ve Masrafsız İade/Değişim Kodu Talebi Hk.",Legal,Legal,Aftersales B2C,0.6,Aftersales,True,"Sac défectueux, demande d'échange gratuit par envoi, citant le droit consommateur sans procédure."
+2082333,Wir möchten Ihre Produkte verkaufen,B2B,Marketplace,B2B / Corporate,0.75,B2B,True,Plateforme e-commerce proposant un partenariat commercial pour vendre le catalogue.
+1914779,Re: Problèmes sur robot de piscine evercrossbot U8,Aftersales,Marketplace,Aftersales B2C,0.82,Aftersales,True,Robot de piscine en panne après moins de deux mois.
+2063260,Re: Pedido número [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.92,Aftersales,True,"Commande en retard, suivi transporteur introuvable."
+1590662,Re: Order number :[COMMANDE],Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,Colis indiqué livré mais introuvable.
+1853488,Re: SAV Domyos incline run,No detection,Presales,Aftersales B2C,0.8,Aftersales,True,"Tapis de course défectueux, demande d'enlèvement du produit."
+2051485,Re: C2C,Other,Marketplace,Fallback,0.25,No detection,False,"Message réduit à 'C2C', sans contenu métier exploitable."
+2091731,Re: Re: Complète ton équipement sportif Sandra ✨,Other,Aftersales,Fallback,0.25,No detection,False,Réponse à un e-mail marketing sans demande.
+1858816,Aw: Re: Aw: Re: Aw: 💙 Dein Einkaufsgutschein im Wert von CHF 5.- ist verfügbar.,No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Question sur le calcul des points fidélité après des achats.
+2009695,Decathlon — marques outdoor × Tommy Nguyen — proposition de contenu UGC depuis Saint-Martin,Other,Presales,B2B / Corporate,0.6,B2B,True,Créateur de contenu proposant une collaboration commerciale rémunérée.
+1922732,Re: My Decathlon Order,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Vélo non déballé, demande d'étiquette de retour."
+1890487,RE : RE : Re: Programme fidélité- bon anniversaire,Other,Presales,"Compte Client, Paiement & Loyalty",0.88,Other,False,Bon d'achat anniversaire du programme fidélité non reçu.
+1903714,Re: DPD stellt meine Bestellung trotz korrekter Adresse nicht zu,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Colis non livré par le transporteur malgré une adresse correcte.
+2058059,Retour tapis de gym gonflable,Aftersales,Presales,Aftersales B2C,0.9,Aftersales,True,"Tapis trop court, demande de retour pour en commander un autre."
+1915400,Avis application Decathlon,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.45,Other,False,Avis négatif sur l'application et son moteur de recherche.
+1936534,Re: Re: ROBO DE BICICLETA EN ALQUILER,Services,Presales,"Services, Atelier & Location",0.65,Services,True,"Vol d'un vélo en location, transmission de documents."
+2103817,FW: FW: Comanda [COMMANDE] a fost expediată,Marketplace,Marketplace,B2B / Corporate,0.55,B2B,True,Demande de facture avec code fiscal d'entreprise pour une commande marketplace.
+1961109,Bug Décat'Coach : 100 points manquants !,Other,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,"Bug de l'application, points fidélité d'activité non crédités."
+1767297,Re: Leverdatum bijgewerkt!,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Colis de retour renvoyé au client, demande des étapes suivantes."
+2043341,Re: Beschwerde nicht Kundenorientierter Umgang Filiale Rheine,No detection,Presales,Informations Magasin,0.5,Other,False,Plainte sur un magasin précis ayant annulé la vente promise d'un article exposé.
+1966884,AW: Rechnung SI-[NUMÉRO] / Decathlon Sports Switzerland SA,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Facture payée pour chaussures retournées, avoir manquant, frais de rappel."
+1980360,Carte cadeau non reçue,Aftersales,Presales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Carte cadeau achetée en ligne non reçue.
+1932637,-,Other,Presales,Fallback,0.1,No detection,False,Message vide.
+1932629,RE: ⏳ Active ton bon d'achat de 15 CHF avant qu'il n'expire,No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Impossible d'activer un bon d'achat fidélité.
+1943125,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.25,No detection,False,Réponse automatique de changement d'adresse e-mail sans demande métier.
+1921414,Re: Factura,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Facture d'achat personnel à corriger avec pièce d'identité.
+2035602,BPost Locker openen,Presales,Presales,Aftersales B2C,0.5,Aftersales,True,Problème d'ouverture d'un casier colis Bpost.
+2006891,Cambio de correo,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Changement d'adresse e-mail du compte client.
+1947951,Re: Paten faturası bulma hak.,B2B,B2B,Aftersales B2C,0.65,Aftersales,True,Recherche de facture d'achat de rollers pour réparation de frein.
+2088162,Aw: Re: Nachricht von Decathlon,Marketplace,Marketplace,Fallback,0.2,No detection,False,Message générique sans contenu métier.
+1958522,Retoure Ware - Deuter Rucksack 22 Liter,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Retour d'un sac à dos commandé, demande de réponse."
+1883919,Re: Re: Pedido [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Relance sur remboursement d'un produit commandé.
+2044828,Re: Retur fără eticheta de retur,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Retour sans QR code pour dépôt en point relais.
+2044438,RE: Re: MESSAGE DECATHLON,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Relance sur l'état d'un remboursement en attente.
+2056851,FW: Jouw factuur is klaar,No detection,Aftersales,B2B / Corporate,0.8,B2B,True,Facture à refaire au nom d'une société avec numéro de TVA.
+2062619,Re: return delivery and refund bestelling [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Retour et remboursement d'une commande.
+2020966,Re: Incomplete Order,Aftersales,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Commande incomplète, poids manquants après perte initiale."
+1869394,Re: Tarjeta de lealtad No. ‪[NUMÉRO]‬,Presales,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Carte de fidélité n'accumule pas de points.
+1523691,RE: SAV,Marketplace,Marketplace,"Services, Atelier & Location",0.85,Services,True,"Révision vélo en atelier, devis complémentaire pour plateau."
+1834832,WUNSCHGUTSCHEIN EINLÖSUNG FEHLGESCHLAGEN,Presales,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Codes de cartes cadeaux refusés comme invalides en ligne.
+1808744,Re: Re: SAV,Aftersales,Presales,Aftersales B2C,0.7,Aftersales,True,"Vélo défectueux sans solution, exige remboursement ou remplacement, menace de plainte."
+2079108,-,Other,Aftersales,Fallback,0.4,No detection,False,"Demande de stage scolaire, hors périmètre service client."
+1950029,Re: Repuesto Portabicicletas GoBiker Beat,Presales,Aftersales,Avant-Vente & Conseil Produit,0.6,Presales,True,Recherche d'une pièce détachée pour porte-vélos.
+1950023,Anfrage für Tombola Spende,Other,Marketplace,Fallback,0.5,No detection,False,Association de parents sollicitant un don pour une tombola.
+1984024,informazioni reso,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Retour effectué sans remboursement ni suivi.
+2044941,Sipariş numarası: tr4561163602,Aftersales,Aftersales,"Compte Client, Paiement & Loyalty",0.55,Other,False,Question sur paiement d'une commande via coupon plutôt que carte.
+1982929,Re: Aucun sommaire,Other,Aftersales,Fallback,0.6,No detection,False,Prospection commerciale non sollicitée sans demande métier.
+2054069,TR: [BicyCode] Sujet : Votre vélo Décathlon non géré par BicyCode,No detection,Presales,"Services, Atelier & Location",0.5,Services,True,Transfert de propriété du marquage antivol d'un vélo d'occasion.
+2064461,Points,Other,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Points de fidélité non crédités après activité sportive.
+2076524,Re: Produs gresit,Marketplace,Marketplace,Aftersales B2C,0.55,Aftersales,True,"Objet seul : produit erroné reçu, corps vide."
+1970884,Complaint Regarding the Replacement of Skate Heaven,Other,Aftersales,Informations Magasin,0.45,Other,False,Contestation du remplacement d'un espace de skate d'un magasin.
+2026051,Problem mit einer Retoure,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,"Retour déposé mais refusé, paiement Klarna réclamé."
+1933391,Re : Re: Re : Carte de fidélité N° [NUMÉRO],Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Transfert d'achats entre deux cartes de fidélité.
+1923706,Re: Rückerstattung erbeten,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Demande de remboursement après retour de marchandise.
+1965004,Retour commande [COMMANDE],Aftersales,Presales,Aftersales B2C,0.9,Aftersales,True,"Maillot retourné, remboursement attendu."
+1900450,Re: Bestellung [COMMANDE],No detection,Aftersales,Marketplace,0.9,Marketplace,True,Retour à un vendeur marketplace sans nouvelles du remboursement.
+1943405,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.25,No detection,False,Réponse automatique de changement d'adresse e-mail sans demande métier.
+1948405,Re: Ürün Stoğu,Presales,Presales,Informations Magasin,0.8,Other,False,"Stock d'un article dans un magasin précis, contact du magasin."
+1475911,Re:,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Trampoline achetée avec sangles décousues, défaut produit."
+1828625,AW: AW: AW: Sie haben eine Nachricht zu Bestellung [COMMANDE]-A erhalten,Marketplace,Marketplace,Aftersales B2C,0.7,Aftersales,True,"Remboursement de frais de douane non effectué, relance."
+1974603,Re: Garantía y servicio postventa,Aftersales,Aftersales,"Services, Atelier & Location",0.6,Services,True,"Rachat de vélo d'occasion en magasin, passage atelier, offre réduite pour réparation"
+1981814,Collaboration and Partnership,B2B,Services,B2B / Corporate,0.75,B2B,True,Fabricant textile proposant un partenariat commercial de production
+2063027,Re: Decathlon Mitteilung bezüglich deiner Bestellung [COMMANDE],Other,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Réponse à une notification de commande, sans contenu détaillé"
+1735034,AW: Bestellnummer [COMMANDE] / Defekt Reisverschluss,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Fermeture éclair défectueuse sur tente commandée, demande de procédure de retour"
+1934792,Réclamation relance numéro deux,Aftersales,Presales,Aftersales B2C,0.9,Aftersales,True,"Colis introuvable, demande de solution et geste commercial"
+1841164,Re: Zugang zum Kundenkonto prüfen,Presales,Presales,"Compte Client, Paiement & Loyalty",0.9,Other,False,Impossible de se connecter au compte client
+2080862,Order [COMMANDE],Other,Marketplace,Aftersales B2C,0.45,Aftersales,True,"Objet seul mentionnant une commande, corps sans détail"
+1807566,Re: Reso,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,Demande de report de l'enlèvement pour un retour
+1942325,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.75,No detection,False,"Réponse automatique de changement d'adresse e-mail, aucun contenu métier"
+2094989,Re: Re: Re: Nachricht von Decathlon,Other,Aftersales,Fallback,0.6,No detection,False,"Réponse vide à un message Decathlon, aucun indice métier"
+1749601,Re: FW: FW: defect zipro spinningfiets,Aftersales,Marketplace,Aftersales B2C,0.75,Aftersales,True,"Bruit anormal sur vélo d'appartement récent, demande de prise en garantie"
+2029730,Re: Decathlon X Flaneuse Mag,Other,Aftersales,B2B / Corporate,0.6,B2B,True,Plateforme artistique proposant une collaboration commerciale de contenu
+2059444,RE: FW: Nieuwe factuur voor bestelling [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Tapis de course défectueux, demande d'échange"
+1947706,Re: Mijn Decathlon bestelling,Marketplace,Marketplace,Aftersales B2C,0.75,Aftersales,True,Demande de facture d'une commande personnelle
+1808225,Klärung der Abrechnung meiner JobRad-Inspektion – Servicecenter Hannover-Laatzen,B2B,Aftersales,"Services, Atelier & Location",0.75,Services,True,Contestation facturation d'une inspection vélo en atelier via leasing
+1970557,Identification vélo,Other,Presales,"Compte Client, Paiement & Loyalty",0.5,Other,False,Vélo non rattachable au garage du compte en ligne pour transfert propriété
+1659880,"Re: Psst, { {FIRSTNAME}} , votre carte est sur le point d'expirer.",No detection,Services,"Compte Client, Paiement & Loyalty",0.4,Other,False,Transfert vide d'un message sur carte bientôt expirée
+1941700,Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: Re: ,Other,Aftersales,Fallback,0.75,No detection,False,Réponse automatique de changement d'adresse e-mail
+1923313,Fahrrad LD90,Other,Aftersales,Avant-Vente & Conseil Produit,0.5,Presales,True,"Question sur disponibilité future d'un modèle de vélo, plus enregistrement antivol"
+2056732,Re: Retour commande,Aftersales,Presales,Aftersales B2C,0.9,Aftersales,True,Demande de retour d'un tapis de course commandé
+1889733,Re: Aide certificat de marquage,Other,Presales,"Compte Client, Paiement & Loyalty",0.45,Other,False,"Enregistrement du vélo impossible sur la plateforme garage en ligne, besoin certificat"
+1891696,Re: Returns email,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Attente d'étiquette de retour pour une commande
+1765609,Re: Mein Konto & Treueprogramm,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Relance sur une demande compte et programme de fidélité
+2017120,Re: Awaiting instructions,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Formulaire de retour envoyé, attente étiquette et enlèvement"
+2016338,Re:,Aftersales,Marketplace,Aftersales B2C,0.8,Aftersales,True,"Assistance électrique du vélo défaillante, demande de procédure"
+1926296,-,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Demande de date de livraison d'une commande
+2017607,Help me please,Other,Services,Fallback,0.85,No detection,False,Message d'aide sans aucun contenu métier
+2070716,AW: Neues Display für mein DYU C9 funktioniert nicht,Marketplace,Marketplace,Aftersales B2C,0.45,Aftersales,True,Objet seul : nouvel écran reçu pour vélo ne fonctionne pas
+1936007,Aw: Re: Gutscheinkarte,Other,Aftersales,"Compte Client, Paiement & Loyalty",0.85,Other,False,"Carte cadeau affichant un solde nul, demande de vérification"
+1994087,İş başvurusu,Other,Aftersales,Fallback,0.5,No detection,False,"Candidature spontanée à un emploi, hors périmètre des intentions"
+1927274,Re: FW: [NETSPORTIQUE] Invoice n°[NUMÉRO],Marketplace,Marketplace,B2B / Corporate,0.6,B2B,True,Établissement scolaire retournant des filets et commandant en volume
+1989610,Fwd: URGENT PRÉJUDICES CORPORELS ET MORAUX Votre commande fr18622869952 - ACCIDENT GRAVE,No detection,Presales,Juridique & RGPD,0.8,Legal,True,"Accident avec blessure causé par produit défectueux, menace d'action juridique"
+2095840,Reklamation von Schuhen – Online-Bestellung vom Oktober 2024,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,"Chaussures usées prématurément, réclamation sur commande en ligne"
+1956421,Re :RE: Etiquette de retour,Aftersales,Presales,Aftersales B2C,0.8,Aftersales,True,Remboursements de réclamations en attente
+2057142,Re: Am o intrebare despre un produs,Presales,Presales,"Compte Client, Paiement & Loyalty",0.55,Other,False,Impossible d'ajouter un produit au panier dans l'application
+1925545,Re: Request for Tracking Number – Order [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Demande de numéro de suivi et transporteur
+1951574,Fwd: Punten toevoegen aan mijn Membership-account,Presales,Presales,"Compte Client, Paiement & Loyalty",0.6,Other,False,Objet seul : ajout de points sur compte membre
+1933573,zurückkehren Bestellnummer [COMMANDE]-A,Marketplace,Marketplace,Aftersales B2C,0.85,Aftersales,True,Attente de l'étiquette de retour
+1951665,Fwd: Delivery Status Notification (Failure),Other,Aftersales,Fallback,0.7,No detection,False,"Notification d'échec de distribution transférée, vide"
+1949045,AW: Retourenlabel,Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Demande d'une nouvelle étiquette de retour
+2032438,Re: Levering fiets,Other,Marketplace,Aftersales B2C,0.6,Aftersales,True,Objet seul concernant la livraison d'un vélo
+2069664,RV: RECLAMACIÓN POR BONO DESCUENTO NO APLICADO,No detection,Aftersales,"Compte Client, Paiement & Loyalty",0.8,Other,False,Coupon échangé contre points non reconnu par le partenaire
+2009482,Run Decathlon x Disneyland Paris 2026,Other,Presales,"Compte Client, Paiement & Loyalty",0.4,Other,False,"Gagnant d'un jeu concours pour une course, questions sur participation"
+1999296,demande d'offre T-Shirts pérsonnalisés,No detection,Aftersales,B2B / Corporate,0.8,B2B,True,Devis pour une vingtaine de t-shirts personnalisés au logo de l'entreprise
+1989883,Re: J'ai un problème technique sur l'application,Presales,Presales,"Compte Client, Paiement & Loyalty",0.85,Other,False,Points de fidélité non crédités dans l'application
+2090773,Cheque regalo,Other,Aftersales,Juridique & RGPD,0.6,Legal,True,Demande formelle de suppression de la base de données après bon inutilisable
+1840899,Re: [COMMANDE],Marketplace,Marketplace,Aftersales B2C,0.9,Aftersales,True,Remboursement de retour non reçu
+1905151,Re: invoice,Marketplace,Marketplace,B2B / Corporate,0.6,B2B,True,Club sportif relançant pour une facture non disponible
+1963231,Re: Problème de validation des points,Presales,Services,"Compte Client, Paiement & Loyalty",0.8,Other,False,Points d'activités non validés sur le programme fidélité
